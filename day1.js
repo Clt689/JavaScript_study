@@ -1,2 +1,4 @@
-test
-test
+function add(){
+  var a, b;
+  return a+b;
+}
