@@ -1,12 +1,5 @@
-const name = "Mike";
-const age = 30;
+let num = 10;
+let result = ++num;
 
-const name1 = "Mike";
-const name2 = 'Mike';
-const name3 = `Mike`;
-
-const message = "I'm a boy. ";
-const message2 = 'I\'m a boy. ';
-const message3 = `My name is ${name}`;
-const message4 = `나는 ${age+1}살 입니다.`;
-console.log(message4);
+console.log(result);
+console.log(num);

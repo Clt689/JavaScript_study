@@ -1,12 +1,9 @@
-const name = "Mike";
-const age = 30;
+// console.log(10>5);
+// console.log(10 == 5); => 동등 연산자
+// console.log(10 != 5);
 
-const name1 = "Mike";
-const name2 = 'Mike';
-const name3 = `Mike`;
-
-const message = "I'm a boy. ";
-const message2 = 'I\'m a boy. ';
-const message3 = `My name is ${name}`;
-const message4 = `나는 ${age+1}살 입니다.`;
-console.log(message4);
+// 동등 연산자 예시
+const a = 1;
+const b = "1";
+console.log(a == b); // True
+console.log(a === b); // 일치 연산자(Type까지 비교해주기때문에 가급적 더 좋음.)
